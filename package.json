@@ -2,21 +2,20 @@
   "name": "syberos-jsbridge",
   "version": "0.0.1",
   "description": "js-sdk for syberos",
-  "homepage": "https://github.com/Tencent/vConsole",
-  "main": "dist/vconsole.min.js",
-  "typings": "./index.d.ts",
+  "homepage": "https://github.com/hanagm/syberos-jsbridge",
+  "main": "dist/syber.js",
   "scripts": {
     "test": "mocha",
     "dist": "webpack"
   },
   "keywords": [
-    "console",
-    "debug",
+    "syberos",
+    "jsbridge",
     "mobile"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tencent/vConsole.git"
+    "url": "git+https://github.com/hanagm/syberos-jsbridge"
   },
   "dependencies": {},
   "devDependencies": {
@@ -53,6 +52,6 @@
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
   },
-  "author": "SyberOS",
+  "author": "syberos",
   "license": "MIT"
 }
